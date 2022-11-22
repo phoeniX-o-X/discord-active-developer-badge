@@ -4,15 +4,15 @@ const fetch = require('node-fetch');
 const { Client, Routes } = require('discord.js');
 
 const ping = {
-  name: 'ping',
-  description: 'yes'
+  name: 'who is Phoenix?',
+  description: 'well phoenix is actully the bot developer'
 };
 
 
 // Command Example
 const command2 = {
-  name:'command2',
-  description:'yes'
+  name:'sad',
+  description:'https://images-ext-2.discordapp.net/external/og_77KbMpost4QtyEV6pGhCdgEUP-SgGckAPhSDE4jU/%3Fcid%3D73b8f7b1f4d9373cd7d465f51c9c073c0740093af1b57d5f%26rid%3Dgiphy.mp4%26ct%3Dg/https/media4.giphy.com/media/ISOckXUybVfQ4/giphy.mp4'
 }
 
 const commands = [ping, command2]; // Add your commands with commas to add them to the bot!
